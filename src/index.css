@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Node.js */
+.node {
+  border: 1px solid black;
+  padding: 2rem;
+  min-width: 10px;
+}
+
+.nodeStart {
+  /* background-color: green; */
+  background-image: url("https://st2.depositphotos.com/3079665/5408/v/600/depositphotos_54089413-stock-illustration-smiling-rat.jpg");
+  background-repeat: no-repeat;
+  /* background-size: 50px 50px; */
+  background-size: cover;
+  /* display: flex; */
+  background-position: center center;   
+}
+
+.nodeFinish {
+    
+  background-image: url("https://img.freepik.com/premium-vector/cheese-cartoon_22350-99.jpg");
+  background-repeat: no-repeat;
+  /* background-size: 50px 50px; */
+  background-size: cover;
+  /* display: flex; */
+  background-position: center center; 
+  background-color: red;
+}
+
+.nodeWall{
+  background-color: red;
+}
+
+.nodePath{
+  background-color: green;
+}
